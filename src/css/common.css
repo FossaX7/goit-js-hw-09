@@ -16,3 +16,54 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.display-timer {
+  width: 450px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: rgb(97, 154, 230);
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-left: 15px;
+  background-color: rgb(53, 116, 81);
+  color: rgb(211, 227, 241);
+  border: inherit;
+  border-radius: 4px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.timer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.timer__field {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.disabled {
+  background-color: rgb(255, 123, 0);
+  color: rgb(62, 12, 241);
+}
+
+.field {
+ display: flex;
+flex-direction: column;
+align-items: center;
+}
